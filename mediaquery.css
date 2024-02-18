@@ -1,0 +1,43 @@
+@media (max-width: 600px) {
+    #change {
+        font-size: 12.5vw;
+        line-height: 25vw;
+        margin-top: 25vw;
+        margin-bottom: -91vw;
+    }
+
+    #toovideo {
+        height: 27vh;
+        margin: 12vw 1vw;
+    }
+
+    #video {
+        min-height: 20vh;
+    }
+
+    .playvideo {
+
+        z-index: 2;
+        position: absolute;
+        left: 50%;
+        right: 50%;
+        height: 8%;
+        width: 18%;
+        border-radius: 50%;
+        top: 509px;
+    }
+
+    #page2 {
+        flex-direction: column;
+        position: relative;
+        top: 60vw
+    }
+
+    .elem {
+        min-width: 100vw;
+         min-height: 397px 
+    }
+    .playvideo h1 {
+        font-size: 4vw;
+}
+}
